@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="color: red">
+<div class="col-sm-12" style="background-color:gainsboro;height: 70px"><h1 style="text-align: center;line-height: 70px  ">FORM ĐĂNG KÍ</h1></div>
+<div style="margin:30px">
+  <form>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label" for="firstName">First Name:</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label" for="lastName">Last Name:</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Gender:</label>
+      <div class="col-sm-6 mt-2">
+        <label class="mb-0 mr-3">
+          <input type="radio" class="mr-1" name="gender"> Male
+        </label>
+        <label class="mb-0 mr-3">
+          <input type="radio" class="mr-1" name="gender"> Female
+        </label>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label" for="inputEmail">Email Address:</label>
+      <div class="col-sm-6">
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label" for="phoneNumber">Mobile Number:</label>
+      <div class="col-sm-6">
+        <input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number" required>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label">Date of Birth:</label>
+      <div class="col-sm-6">
+        <input type="date" class="form-control" id="date" placeholder="dd/mm/yyyy" required>
+      </div>
+<!--      <div class="col-sm-3">-->
+<!--        <select class="custom-select">-->
+<!--          <option>Date</option>-->
+<!--        </select>-->
+<!--      </div>-->
+<!--      <div class="col-sm-3">-->
+<!--        <select class="custom-select">-->
+<!--          <option>Month</option>-->
+<!--        </select>-->
+<!--      </div>-->
+<!--      <div class="col-sm-3">-->
+<!--        <select class="custom-select">-->
+<!--          <option>Year</option>-->
+<!--        </select>-->
+<!--      </div>-->
+    </div>
+<!--    <div class="form-group row">-->
+<!--      <label class="col-sm-3 col-form-label" for="postalAddress">Postal Address:</label>-->
+<!--      <div class="col-sm-9">-->
+<!--        <textarea rows="3" class="form-control" id="postalAddress" placeholder="Postal Address" required></textarea>-->
+<!--      </div>-->
+<!--    </div>-->
+    <div class="form-group row">
+      <label class="col-sm-3 col-form-label" for="ZipCode">Zip Code:</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" id="ZipCode" placeholder="Zip Code" required>
+      </div>
+    </div>
+
+<!--    <div class="form-group row">-->
+<!--      <div class="col-sm-9 offset-sm-3">-->
+<!--        <label class="checkbox-inline">-->
+<!--          <input type="checkbox" class="mr-1" value="agree"> I agree to the <a href="#">Terms and Conditions</a>.-->
+<!--        </label>-->
+<!--      </div>-->
+<!--    </div>-->
+    <div class="form-group row">
+      <div class="col-sm-9 offset-sm-3">
+        <input type="submit" class="btn btn-primary" value="Submit">
+        <input type="reset" class="btn btn-secondary" value="Reset">
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
